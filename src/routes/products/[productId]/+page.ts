@@ -1,5 +1,5 @@
 export function load({ fetch, params }) {
-	async function fetchingProduct(id) {
+	async function fetchingProduct(id: string) {
 		const productApi = await fetch(`https://dummyjson.com/products/${id}`);
 		const productData = await productApi.json();
 		return productData;
