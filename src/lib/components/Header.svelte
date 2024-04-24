@@ -8,7 +8,7 @@
 			<div class="text-center sm:text-left">
 				<h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">Sample Logo</h1>
 
-				<p class="mt-1.5 text-sm text-gray-500">Let's write a new blog post! 🎉</p>
+				<p class="mt-1.5 text-sm text-gray-500">Explore some products 🎉</p>
 			</div>
 
 			<div class="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
