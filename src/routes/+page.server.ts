@@ -1,5 +1,5 @@
 export function load({ cookies }) {
-	let username = cookies.get("username");
+	const username = cookies.get("username");
 
 	if (!username) {
 		return {
@@ -13,7 +13,7 @@ export function load({ cookies }) {
 export const actions = {
 	yourusername: async ({ cookies, request }) => {
 		const data = await request.formData();
-		const username = data.get("username");
+		const username = data.get("username") as string;
 
 		cookies.set("username", username, { path: "/" });
 	},
